@@ -4,12 +4,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';// importanto bootstrap dps de usa
 //app.css fica embaixo por causa do cascate, caso queria sobrescrever o bottstrap
 import './App.css';
 import NavBar from './components/layout/NavBar';
+import DashBoard from './components/layout/Dashboard';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <NavBar />
+         <NavBar />
+        <div className="container">
+          <DashBoard />
+        </div> 
       </div>
     );
   }
