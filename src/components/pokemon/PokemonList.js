@@ -5,7 +5,7 @@ import PokemonCard from './PokemonCard';
 export default class PokemonList extends Component {
   //state para salvar a api de pokemon e o estado incial do pokemon
     state= {
-      url: "https://pokeapi.co/api/v2/pokemon/?limit=150&offset=0",
+      url: "https://pokeapi.co/api/v2/pokemon/?limit=151&offset=0",
       pokemon: null
   } ;
 
